@@ -1,0 +1,17 @@
+<%- include('includes/head.ejs') %>
+<div class="container">
+    <main>
+        <% if (users.length > 0) { %> 
+        <div class="grid">
+            <ul>
+            <% for (let user of users){ %> 
+                    <li class="user_title"><%= user.username %></li>
+            <% } %>
+            </ul>
+        </div>
+        <% } else { %> 
+        <h1>No Users Found</h1>
+        <% } %>
+    </main>
+</div>
+<%- include('includes/end.ejs') %>

@@ -1,0 +1,21 @@
+{
+  "name": "templating",
+  "version": "1.0.0",
+  "description": "Assignment for the templating module for Node.js course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-ass3"
+  },
+  "author": "Ivo Mofor N",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
